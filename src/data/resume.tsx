@@ -316,7 +316,8 @@ export const DATA = {
     {
       title: "TCS Star Performer",
       date: "2014",
-      description: "Awarded TCS Star Performer with rating 5/5 for exceptional performance and contributions."
+      description: "Awarded TCS Star Performer with rating 5/5 for exceptional performance and contributions.",
+      url: undefined
     }
   ],
 } as const;
