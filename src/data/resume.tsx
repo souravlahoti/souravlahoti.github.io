@@ -206,12 +206,11 @@ export const DATA = {
     {
       title: "DotenvHub",
       href: "https://dotenvhub.com/",
-      dates: "2024 - Present",
+      dates: "2025 - Present",
       active: true,
       description:
         "A modern environment variable management platform for developers and teams. Securely store, manage, and sync environment variables across different environments with team collaboration features.",
       technologies: [
-        "Next.js",
         "TypeScript",
         "React",
         "Node.js",
@@ -229,20 +228,43 @@ export const DATA = {
       video: "",
     },
     {
+      title: "Quick Textify",
+      href: "https://quicktextify.com/",
+      dates: "2025 - Present",
+      active: true,
+      description: "Create viral thumbnails and social posts in seconds with Quick Textify. AI-powered tool to add text between images - no design skills needed!",
+      technologies: [
+        "TypeScript",
+        "React",
+        "Node.js",
+        "MongoDB",
+        "TailwindCSS",
+        "AI",
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://quicktextify.com/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+      video: "",
+    },
+    {
       title: "FutureTayari",
       href: "https://www.futuretayari.com/",
-      dates: "2024 - Present",
+      dates: "2023 - 2024",
       active: true,
       description:
         "An innovative educational platform designed to help students prepare for their future careers. Provides comprehensive resources, career guidance, and skill development tools to bridge the gap between education and industry requirements.",
       technologies: [
-        "Next.js",
+        "Nest.js",
         "TypeScript",
         "React",
         "Node.js",
         "PostgreSQL",
         "TailwindCSS",
-        "AI/ML",
       ],
       links: [
         {
@@ -257,7 +279,7 @@ export const DATA = {
     {
       title: "Testimonial Slider Pro",
       href: "https://github.com/souravlahoti/testimonial-slider-pro",
-      dates: "2024",
+      dates: "2025",
       active: true,
       description:
         "A professional, customizable testimonial slider component for modern web applications. Features smooth animations, responsive design, and easy integration with various frameworks. Perfect for showcasing customer reviews and social proof.",
@@ -266,7 +288,7 @@ export const DATA = {
         "TypeScript",
         "CSS3",
         "JavaScript",
-        "HTML5",
+        "NPM",
       ],
       links: [
         {
@@ -281,16 +303,15 @@ export const DATA = {
     {
       title: "Awayddings",
       href: "https://www.awayddings.com/",
-      dates: "2024 - Present",
+      dates: "2021",
       active: true,
       description:
         "A comprehensive wedding planning platform that helps couples plan their dream destination weddings. Features venue discovery, vendor management, budget tracking, and seamless coordination for weddings away from home.",
       technologies: [
-        "Next.js",
         "TypeScript",
         "React",
-        "Node.js",
-        "PostgreSQL",
+        "PHP",
+        "MySQL",
         "TailwindCSS",
         "Payment Integration",
       ],
