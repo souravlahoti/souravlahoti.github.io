@@ -167,18 +167,18 @@ export const DATA = {
       description:
         "Envisioning technical aspects of the company's product strategy for ensuring alignment with business goals. Delivering compelling product demos, sample solutions and discussion to drive adoption of Intel Software. Creating code repository, tutorials & product demos about emerging technologies and industry developments. Working with worldwide counterparts to share best practises and help built a best in the industry evangelism organization.",
     },
-    {
-      company: "Growfit",
-      href: "#",
-      badges: [],
-      location: "Bangalore, India",
-      title: "System Engineer",
-      logoUrl: "/growfit.png",
-      start: "",
-      end: "",
-      description:
-        "Worked on the implementation and roll-out of the e-commerce platform. Complete ownership of Order & Delivery Management System.",
-    },
+    // {
+    //   company: "Growfit",
+    //   href: "#",
+    //   badges: [],
+    //   location: "Bangalore, India",
+    //   title: "System Engineer",
+    //   logoUrl: "/growfit.png",
+    //   start: "",
+    //   end: "",
+    //   description:
+    //     "Worked on the implementation and roll-out of the e-commerce platform. Complete ownership of Order & Delivery Management System.",
+    // },
     {
       company: "Tata Consultancy Services",
       href: "https://tcs.com/",
