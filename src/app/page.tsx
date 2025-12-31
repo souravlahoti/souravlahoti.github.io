@@ -4,7 +4,11 @@ import { ProjectCard } from "@/components/project-card";
 import { ResumeCard } from "@/components/resume-card";
 import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Badge } from "@/components/ui/badge";
+import { AgeCounter } from "@/components/age-counter";
+import { PingInfo } from "@/components/ping-info";
+import { GitHubActivity } from "@/components/github-activity";
 import { DATA } from "@/data/resume";
+import { getSkillIcon } from "@/lib/skill-icons";
 import Link from "next/link";
 import Markdown from "react-markdown";
 
@@ -35,6 +39,10 @@ export default function Page() {
                 <AvatarFallback>{DATA.initials}</AvatarFallback>
               </Avatar>
             </BlurFade>
+          </div>
+          <div className="flex flex-col sm:flex-row justify-between items-start sm:items-end gap-6 pt-4 border-t">
+            <AgeCounter birthDate={DATA.birthDate} />
+            <PingInfo />
           </div>
         </div>
       </section>
@@ -102,11 +110,17 @@ export default function Page() {
             <h2 className="text-xl font-bold">Skills</h2>
           </BlurFade>
           <div className="flex flex-wrap gap-1">
-            {DATA.skills.map((skill, id) => (
-              <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
-                <Badge key={skill}>{skill}</Badge>
-              </BlurFade>
-            ))}
+            {DATA.skills.map((skill, id) => {
+              const SkillIcon = getSkillIcon(skill);
+              return (
+                <BlurFade key={skill} delay={BLUR_FADE_DELAY * 10 + id * 0.05}>
+                  <Badge key={skill} className="gap-1.5 p-1.5">
+                    {SkillIcon && <SkillIcon className="size-3" />}
+                    {skill}
+                  </Badge>
+                </BlurFade>
+              );
+            })}
           </div>
         </div>
       </section>
@@ -148,6 +162,9 @@ export default function Page() {
                 />
               </BlurFade>
             ))}
+          </div>
+          <div className="pt-4 border-t">
+            <GitHubActivity username={DATA.githubUsername} />
           </div>
         </div>
       </section>

@@ -7,6 +7,8 @@ export const DATA = {
   url: "https://souravlahoti.com",
   location: "Bangalore, India",
   locationLink: "https://www.google.com/maps/place/bangalore",
+  birthDate: "1990-09-12", // Format: YYYY-MM-DD
+  githubUsername: "souravlahoti",
   description:
     "Technical Lead bringing 12+ years of full-stack expertise to architect scalable, high-impact solutions.",
   summary:
@@ -17,6 +19,7 @@ export const DATA = {
     "TypeScript", 
     "Python",
     "ReactJS",
+    "NextJS",
     "Tailwind",
     "GraphQL",
     "Redux",
@@ -36,6 +39,9 @@ export const DATA = {
     "Terraform",
     "Nginx",
     "Git",
+    "LangChain",
+    "OpenAI",
+    "RAG"
   ],
   navbar: [
     { href: "/", icon: HomeIcon, label: "Home" },
