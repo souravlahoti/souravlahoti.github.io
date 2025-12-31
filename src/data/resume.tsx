@@ -204,9 +204,35 @@ export const DATA = {
   ],
   projects: [
     {
+      title: "FreshHire.ai",
+      href: "https://job-lift.xyz/",
+      dates: "2025 - Present",
+      active: true,
+      description:
+        "The AI-powered interview coach built for undergrads. Practice with a robust voice assistant, automate your preparation, and create a driven path to your dream career.",
+      technologies: [
+        "OpenAI",
+        "LangChain",
+        "ElevenLabs",
+        "DeepGram",
+        "Next.js",
+        "MongoDB",
+        "TailwindCSS"
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://job-lift.xyz/",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "https://i.ibb.co/WvxsmCTp/Screenshot-2025-12-31-at-11-11-01-AM.png",
+      video: "",
+    },
+    {
       title: "DotenvHub",
       href: "https://dotenvhub.com/",
-      dates: "2025 - Present",
+      dates: "2025",
       active: true,
       description:
         "A modern environment variable management platform for developers and teams. Securely store, manage, and sync environment variables across different environments with team collaboration features.",
@@ -224,7 +250,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://i.ibb.co/fz27T9FF/Screenshot-2025-12-31-at-10-58-36-AM.png",
       video: "",
     },
     {
@@ -248,7 +274,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://i.ibb.co/rG7ypZrT/Screenshot-2025-12-31-at-11-06-37-AM.png",
       video: "",
     },
     {
@@ -273,7 +299,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://i.ibb.co/Z1X7DNzP/Screenshot-2025-12-31-at-11-07-38-AM.png",
       video: "",
     },
     {
@@ -297,7 +323,7 @@ export const DATA = {
           icon: <Icons.github className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://private-user-images.githubusercontent.com/4952640/460458082-f3ee84e4-4e61-41b0-874d-f51d9733c600.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjcxNTk3ODQsIm5iZiI6MTc2NzE1OTQ4NCwicGF0aCI6Ii80OTUyNjQwLzQ2MDQ1ODA4Mi1mM2VlODRlNC00ZTYxLTQxYjAtODc0ZC1mNTFkOTczM2M2MDAucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI1MTIzMSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNTEyMzFUMDUzODA0WiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9MjA1MjNjMTViNmU4OWJmYzQ3NGM5ZGQ2NWRlNjMzNjNiNWZkZmMwYTRkZjUzZTRlMTg1NDU1OWNjMjJiMTBkNyZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QifQ.7HVUkXwUi3QOQkkNbuRl2_QMdPdcZQHAeYTClaFWtvQ",
       video: "",
     },
     {
@@ -322,7 +348,7 @@ export const DATA = {
           icon: <Icons.globe className="size-3" />,
         },
       ],
-      image: "",
+      image: "https://i.ibb.co/wNS2GZsy/Screenshot-2025-12-31-at-11-08-43-AM.png",
       video: "",
     },
   ],
